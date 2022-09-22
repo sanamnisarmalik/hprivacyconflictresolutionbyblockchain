@@ -1,0 +1,2 @@
+How to run Substrate node 
+./substrate-contracts-node --dev
