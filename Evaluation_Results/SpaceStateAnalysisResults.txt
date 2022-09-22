@@ -1,1 +1,306 @@
-   
+CPN Tools state space report for:
+/cygdrive/C/Users/Sanam/Downloads/HealthInsurance_Evaluation_NoHierachy.cpn
+Report generated: Sat Mar 19 16:09:55 2022
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  79
+     Arcs:   84
+     Secs:   0
+     Status: Full
+
+  Scc Graph
+     Nodes:  79
+     Arcs:   84
+     Secs:   0
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     ExternalLayer'GP_end 1  1          0
+     ExternalLayer'GP_out 1  1          0
+     ExternalLayer'GP_start 1
+                             1          0
+     ExternalLayer'HP_end 1  1          0
+     ExternalLayer'HP_out 1  1          0
+     ExternalLayer'HP_start 1
+                             1          0
+     ExternalLayer'IP_a 1    1          0
+     ExternalLayer'IP_b 1    1          0
+     ExternalLayer'IP_c 1    1          0
+     ExternalLayer'IP_d 1    1          0
+     ExternalLayer'IP_e 1    1          0
+     ExternalLayer'IP_f 1    1          0
+     ExternalLayer'P_end 1   1          0
+     ExternalLayer'P_out 1   1          0
+     ExternalLayer'P_start 1 1          0
+     ExternalLayer'Uniqueue_end 1
+                             1          0
+     ExternalLayer'uniqueue_start 1
+                             1          0
+     Healthcare_professional_internall_process'Data_filtering 1
+                             1          0
+     Healthcare_professional_internall_process'HP_b 1
+                             1          0
+     Healthcare_professional_internall_process'HP_b1 1
+                             1          0
+     Healthcare_professional_internall_process'Hp_Bp_Measurements_from_hospital 1
+                             1          1
+     Healthcare_professional_internall_process'Hp_Bp_Measurements_from_patient 1
+                             1          1
+     Healthcare_professional_internall_process'Hp_a1 1
+                             1          0
+     Healthcare_professional_internall_process'Hp_c 1
+                             1          0
+     Healthcare_provider_internal_process'External_data 1
+                             1          1
+     Healthcare_provider_internal_process'GP_a 1
+                             1          0
+     Healthcare_provider_internal_process'GP_a1 1
+                             1          0
+     Healthcare_provider_internal_process'GP_a2 1
+                             1          0
+     Healthcare_provider_internal_process'GP_b 1
+                             1          0
+     Healthcare_provider_internal_process'GP_b1 1
+                             1          0
+     Healthcare_provider_internal_process'GP_b2 1
+                             1          0
+     Healthcare_provider_internal_process'Internal_data 1
+                             2          1
+     Healthcare_provider_internal_process'Process_ID 1
+                             1          0
+     Patient_internal_process'Data_existance 1
+                             2          2
+     Patient_internal_process'New_data 1
+                             1          1
+     Patient_internal_process'PHR_Repository 1
+                             2          1
+     Patient_internal_process'P_1 1
+                             1          0
+     Patient_internal_process'P_d1 1
+                             1          0
+     Patient_internal_process'P_e 1
+                             1          0
+     Patient_internal_process'p12 1
+                             1          0
+     Patient_internal_process'p13 1
+                             1          0
+     Patient_internal_process'p_11 1
+                             1          0
+
+  Best Upper Multi-set Bounds
+     ExternalLayer'GP_end 1
+                         1`1
+     ExternalLayer'GP_out 1
+                         1`(1,((1,120.0),EHR))++
+1`(1,((10,118.0),EHR))
+     ExternalLayer'GP_start 1
+                         1`1
+     ExternalLayer'HP_end 1
+                         1`1
+     ExternalLayer'HP_out 1
+                         1`(1,((14,130.0),EHR))
+     ExternalLayer'HP_start 1
+                         1`1
+     ExternalLayer'IP_a 1
+                         1`1
+     ExternalLayer'IP_b 1
+                         1`(1,((1,2.0),PHR))++
+1`(1,((1,125.0),PHR))
+     ExternalLayer'IP_c 1
+                         1`(1,((1,2.0),PHR))++
+1`(1,((1,125.0),PHR))
+     ExternalLayer'IP_d 1
+                         1`1
+     ExternalLayer'IP_e 1
+                         1`(1,((20,134.0),PHR))
+     ExternalLayer'IP_f 1
+                         1`1
+     ExternalLayer'P_end 1
+                         1`1
+     ExternalLayer'P_out 1
+                         1`(1,(1,2.0))++
+1`(1,(1,125.0))
+     ExternalLayer'P_start 1
+                         1`1
+     ExternalLayer'Uniqueue_end 1
+                         1`"claim"
+     ExternalLayer'uniqueue_start 1
+                         1`1
+     Healthcare_professional_internall_process'Data_filtering 1
+                         1`(1,((14,130.0),EHR))
+     Healthcare_professional_internall_process'HP_b 1
+                         1`1
+     Healthcare_professional_internall_process'HP_b1 1
+                         1`(1,((1,125.0),PHR))
+     Healthcare_professional_internall_process'Hp_Bp_Measurements_from_hospital 1
+                         1`((14,130.0),true)
+     Healthcare_professional_internall_process'Hp_Bp_Measurements_from_patient 1
+                         1`((1,125.0),true)
+     Healthcare_professional_internall_process'Hp_a1 1
+                         1`1
+     Healthcare_professional_internall_process'Hp_c 1
+                         1`(1,((14,130.0),EHR))
+     Healthcare_provider_internal_process'External_data 1
+                         1`(10,118.0)
+     Healthcare_provider_internal_process'GP_a 1
+                         1`(1,(1,120.0),true)++
+1`(1,(10,118.0),true)
+     Healthcare_provider_internal_process'GP_a1 1
+                         1`1
+     Healthcare_provider_internal_process'GP_a2 1
+                         1`(1,(10,118.0))
+     Healthcare_provider_internal_process'GP_b 1
+                         1`(1,(1,120.0))++
+1`(1,(10,118.0))
+     Healthcare_provider_internal_process'GP_b1 1
+                         1`(1,(10,118.0))
+     Healthcare_provider_internal_process'GP_b2 1
+                         1`(1,(1,120.0))++
+1`(1,(10,118.0))
+     Healthcare_provider_internal_process'Internal_data 1
+                         1`((1,120.0),true)++
+1`((10,118.0),true)
+     Healthcare_provider_internal_process'Process_ID 1
+                         1`1
+     Patient_internal_process'Data_existance 1
+                         1`false++
+1`true
+     Patient_internal_process'New_data 1
+                         1`(1,125.0)
+     Patient_internal_process'PHR_Repository 1
+                         1`((1,2.0),true)++
+1`((1,125.0),true)
+     Patient_internal_process'P_1 1
+                         1`1
+     Patient_internal_process'P_d1 1
+                         1`(1,(1,2.0))++
+1`(1,(1,125.0))
+     Patient_internal_process'P_e 1
+                         1`(1,(1,2.0))++
+1`(1,(1,125.0))
+     Patient_internal_process'p12 1
+                         1`1
+     Patient_internal_process'p13 1
+                         1`(1,(1,125.0))
+     Patient_internal_process'p_11 1
+                         1`1
+
+  Best Lower Multi-set Bounds
+     ExternalLayer'GP_end 1
+                         empty
+     ExternalLayer'GP_out 1
+                         empty
+     ExternalLayer'GP_start 1
+                         empty
+     ExternalLayer'HP_end 1
+                         empty
+     ExternalLayer'HP_out 1
+                         empty
+     ExternalLayer'HP_start 1
+                         empty
+     ExternalLayer'IP_a 1
+                         empty
+     ExternalLayer'IP_b 1
+                         empty
+     ExternalLayer'IP_c 1
+                         empty
+     ExternalLayer'IP_d 1
+                         empty
+     ExternalLayer'IP_e 1
+                         empty
+     ExternalLayer'IP_f 1
+                         empty
+     ExternalLayer'P_end 1
+                         empty
+     ExternalLayer'P_out 1
+                         empty
+     ExternalLayer'P_start 1
+                         empty
+     ExternalLayer'Uniqueue_end 1
+                         empty
+     ExternalLayer'uniqueue_start 1
+                         empty
+     Healthcare_professional_internall_process'Data_filtering 1
+                         empty
+     Healthcare_professional_internall_process'HP_b 1
+                         empty
+     Healthcare_professional_internall_process'HP_b1 1
+                         empty
+     Healthcare_professional_internall_process'Hp_Bp_Measurements_from_hospital 1
+                         1`((14,130.0),true)
+     Healthcare_professional_internall_process'Hp_Bp_Measurements_from_patient 1
+                         1`((1,125.0),true)
+     Healthcare_professional_internall_process'Hp_a1 1
+                         empty
+     Healthcare_professional_internall_process'Hp_c 1
+                         empty
+     Healthcare_provider_internal_process'External_data 1
+                         1`(10,118.0)
+     Healthcare_provider_internal_process'GP_a 1
+                         empty
+     Healthcare_provider_internal_process'GP_a1 1
+                         empty
+     Healthcare_provider_internal_process'GP_a2 1
+                         empty
+     Healthcare_provider_internal_process'GP_b 1
+                         empty
+     Healthcare_provider_internal_process'GP_b1 1
+                         empty
+     Healthcare_provider_internal_process'GP_b2 1
+                         empty
+     Healthcare_provider_internal_process'Internal_data 1
+                         1`((1,120.0),true)
+     Healthcare_provider_internal_process'Process_ID 1
+                         empty
+     Patient_internal_process'Data_existance 1
+                         1`false++
+1`true
+     Patient_internal_process'New_data 1
+                         1`(1,125.0)
+     Patient_internal_process'PHR_Repository 1
+                         1`((1,2.0),true)
+     Patient_internal_process'P_1 1
+                         empty
+     Patient_internal_process'P_d1 1
+                         empty
+     Patient_internal_process'P_e 1
+                         empty
+     Patient_internal_process'p12 1
+                         empty
+     Patient_internal_process'p13 1
+                         empty
+     Patient_internal_process'p_11 1
+                         empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     None
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     [77,79]
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     None
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+     No infinite occurrence sequences.
