@@ -1,7 +1,10 @@
 
 About e-healthcare Project 
+
 Patient View for Submitting Personal Medical Data
+
 Installation Steps:
+
 	Step 1: Clone the Git repository or download the zip file and extract to desired folder
 	Step 2: Install Node.js
 	Step 3: Install Hardhat
